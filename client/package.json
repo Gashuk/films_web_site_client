@@ -20,7 +20,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^1.1.5",
     "recharts": "^2.1.8",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "xlsx": "^0.17.4"
   },
   "scripts": {
     "start": "react-scripts --max_old_space_size=4096 start",
