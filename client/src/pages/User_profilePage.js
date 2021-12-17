@@ -2,13 +2,7 @@ import React, {useContext, useEffect, useState} from 'react';
 import {Button, Card, Col, Container, Image, Nav, Row, Table} from "react-bootstrap";
 import Table_User from "../components/Table_User";
 import {Context} from "../index";
-import CreateGenre from "../components/modals/modalsGenre/CreateGenre";
 import {observer} from "mobx-react-lite";
-import {ADMIN_ROUTE, COMPOSITION_ROUTE_ADMIN, GENRE_ROUTE, USER_PROFILE_ROUTE} from "../utils/consts";
-import AddGenre from "../components/modals/modalsGenre/AddGenre";
-import DeleteGenre from "../components/modals/modalsGenre/DeleteGnere";
-import {addGenreAPI, fetchGenreAPI, fetchHumanAPI} from "../http/compositionAPI";
-import {useHistory, useParams} from "react-router-dom";
 import CreateUser_profile from "../components/modals/CreateUser_profile";
 import {fetchUser_profiles} from "../http/userAPI";
 
