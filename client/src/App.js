@@ -7,7 +7,7 @@ import {Context} from "./index";
 import {check} from "./http/userAPI";
 import {Spinner} from "react-bootstrap";
 import FootBar from "./components/FootBar";
-import  "./app.css";
+// import  "./app.css";
 
 const App = observer(() =>{
     const {user} =useContext(Context)
