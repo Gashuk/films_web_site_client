@@ -39,8 +39,6 @@ import UserPage from "./pages/UserPage";
 import RatingPage from "./pages/RatingPage";
 import ReviewPage from "./pages/ReviewPage";
 import User_profilePage from "./pages/User_profilePage";
-import User_ratingPage from "./pages/User_ratingPage";
-import User_reviewPage from "./pages/User_reviewPage";
 
 export const authRoutes = [
     {
@@ -135,14 +133,7 @@ export const authRoutes = [
         path:USER_PROFILE_ROUTE,
         Component: User_profilePage
     },
-    {
-        path:USER_RATING_ROUTE,
-        Component: User_ratingPage
-    },
-    {
-        path:USER_REVIEW_ROUTE,
-        Component: User_reviewPage
-    },
+
     {
         path:COMPOSITION_ROUTE_ADMIN,
         Component: CompositionAdminPage
@@ -277,14 +268,7 @@ export const publicRoutes = [
         path:USER_PROFILE_ROUTE,
         Component: User_profilePage
     },
-    {
-        path:USER_RATING_ROUTE,
-        Component: User_ratingPage
-    },
-    {
-        path:USER_REVIEW_ROUTE,
-        Component: User_reviewPage
-    },
+
     {
         path:COMPOSITION_ROUTE_ADMIN,
         Component: CompositionAdminPage
