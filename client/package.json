@@ -10,6 +10,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "bs-custom-file-input": "^1.3.4",
+    "fs": "^0.0.1-security",
     "jwt-decode": "^3.1.2",
     "mobx": "^6.3.2",
     "mobx-react-lite": "^3.2.0",
@@ -49,8 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "node": {
-    "fs": "empty"
   }
 }
