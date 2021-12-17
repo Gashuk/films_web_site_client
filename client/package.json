@@ -53,7 +53,7 @@
     ]
   },
   "browser": {
-    "fs": false,
+    "fs": "empty",
     "path": false,
     "os": false
   }
