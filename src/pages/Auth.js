@@ -100,6 +100,7 @@ const Auth = observer(() => {
 
                         <Button
                             variant={"outline-light"}
+                            title="login_reg_button"
                             onClick={click}
                         >
                             {isLogin ? "Войти":"Регистрация"}

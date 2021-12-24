@@ -31,6 +31,7 @@ const NavBar = observer(() => {
                         <Button
                             variant={"outline-light"}
                             className="ml-2"
+                            title="login_reg_nav_bar"
                             onClick={() => history.push(ADMIN_ROUTE)}
                         >
                             {user.isADMIN ?
