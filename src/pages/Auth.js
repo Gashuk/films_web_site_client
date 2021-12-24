@@ -89,11 +89,11 @@ const Auth = observer(() => {
                     />
                     <Row className="d-flex justify-content-between mt-3 pl-3 pr-3">
                         {isLogin ?
-                            <div>
+                            <div class="navlink">
                                 Нет аккаунта? <NavLink to={REGISTRATION_ROUTE}>Зарегистрируйся!</NavLink>
                             </div>
                         :
-                            <div>
+                            <div class="navlink">
                                 Есть аккаунта? <NavLink to={LOGIN_ROUTE}>Войдите!</NavLink>
                             </div>
                         }
